@@ -4,17 +4,10 @@ Not all sections apply, feel free to delete as appropriate.
 -->
 
 ## Status: 
-<!--
+<!-- Uncomment one of these statuses
 :rocket: Ready
 :construction: In development
 :no_entry_sign: Do not merge
--->
-
-
-## Deploy link
-<!--
-cd frontend && now --public
-TBA: backend deployment
 -->
 
 
