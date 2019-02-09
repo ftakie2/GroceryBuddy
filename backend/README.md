@@ -20,6 +20,6 @@ Then run the python flask backend with
 # Running without pipenv
 Alternatively you can just use whatever version of python you have and install the dependencies using
 
-`pip install requirements.txt`
+`pip install -r requirements.txt`
 
 `python app.py`
