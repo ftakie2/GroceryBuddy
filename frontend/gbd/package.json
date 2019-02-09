@@ -4,12 +4,19 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
   },
   "dependencies": {
     "expo": "^32.0.0",
+    "jest": "^24.1.0",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-test-renderer": "^16.8.1",
+    "yarn": "^1.13.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0"
