@@ -6,7 +6,7 @@ mongoclient = pymongo.MongoClient('mongodb://admin:password123@ds058508.mlab.com
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return 'Hello, Grocery buddies!'
 
 @app.route('/testdb', methods=['GET', 'POST'])
 def use_db():
@@ -20,4 +20,4 @@ def use_db():
         return 'Name saved\n'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=80)
