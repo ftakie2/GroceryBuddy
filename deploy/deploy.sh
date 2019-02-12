@@ -1,1 +1,1 @@
-cd ../backend && pip install -r requirements.txt && sudo python app.py
+pip install -r ./backend/requirements.txt && sudo python ./backend/app.py
