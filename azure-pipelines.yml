@@ -8,7 +8,7 @@ trigger:
 
 jobs:
 
-- job: 'Publish'
+- job: Linux
   pool: ubuntu-16.04
 
   steps:
